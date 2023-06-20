@@ -1,0 +1,90 @@
+body {
+    background: url("../img/background_img.jpg");
+    color: #2f3138;
+    font-family: "Open fans", sans-serif;
+  }
+
+  #header {
+    background: rgba(6, 12, 34, 0.98);
+  }
+
+    .container {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .back-button {
+        width: 30px;
+    }
+
+    .header-logo {
+        width: 147px;
+    }
+
+    /* For checking */
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        }
+        html {
+        font-family: "Ubuntu";
+        font-size: 15px;
+        scroll-behavior: smooth;
+        background-color: #42523f;
+        }
+        section {
+        height: 100vh;
+        width: 100%;
+        background-color: #7e8081;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        }
+        #home {
+        background-color: #1C8106;
+        }
+        #about {
+        background-color: #6081C3;
+        }
+        #footer {
+        background-color: #A83E11;
+        }
+        
+    nav {
+        position: sticky;
+        top: 0;
+        background-color: #eef0f1;
+        border-radius:0 0 20px 20px;
+        }
+        nav .container {
+        width: 90%;
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+        }
+        nav .container ul li {
+        display: inline-block;
+        border-radius:5px;
+        }
+        nav .container ul li a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 20px;
+        color: black;
+        }
+        nav .container ul li.active {
+        background-color: #3b49df;
+        border-radius:30px;
+        transition: 0.3s;
+        }
+        nav .container ul li.active a {
+        color: #ffffff;
+        }
